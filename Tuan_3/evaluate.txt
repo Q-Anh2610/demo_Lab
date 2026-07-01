@@ -1,0 +1,61 @@
+1.  SO SÁNH CHI TIẾT: IMAGE | GT | TEACHER | SEQ-KD | WORD-KD
+
+Ground Truth : flower fall and spot spatter this wear everywhere top cut with a gracefully pleated neckline
+Teacher (L)  : the woman is wearing jeans and a top with a flower print
+Seq-KD (S)   : women ' s sleeveless top with floral print
+Word-KD (S)  : this fally blouse is perfect for layering up a casual look with a pop of color and a bow neckline
+================================================================================
+
+Ground Truth : inspired by classic american style this prepster staple is knit from soft warming wool and sharpened up with colorful stripe and a crisp cotton twill collar
+Teacher (L)  : the sweater is green, orange, and purple with a white collar
+Seq-KD (S)   : the sweater is green, orange and purple with a collar
+Word-KD (S)  : a green sweater with a purple and orange stripe and a white collar
+================================================================================
+
+Ground Truth : pretty floral lace bloom across this cropped camisole that s soft stretchy and comfortable to wear
+Teacher (L)  : an image of a woman wearing a white bra top and panties
+Seq-KD (S)   : the woman is wearing a white bra top and panties
+Word-KD (S)  : a cropped cropped camisole with a floral lace trim and a cropped camisole cut in the middle of the camisole
+================================================================================
+
+Ground Truth : if the sweater is clean so is the crisp white tee to top beneath it thanks to the sweater over tee look of this pullover style that s already paired
+Teacher (L)  : the woman is wearing a light blue sweater and black pants
+Seq-KD (S)   : the woman is wearing a light blue sweater and black pants
+Word-KD (S)  : a plus size sweater that s perfect for layering and layering is perfect for layering and layering plus size sweater is perfect for layering and layering
+================================================================================
+
+Ground Truth : frilly trim enhances the whimsical appeal of this polka dot blouse fashioned from light luminous silk
+Teacher (L)  : the woman is wearing a black and white shirt and blue pants
+Seq-KD (S)   : the woman is wearing blue jeans and a black shirt
+Word-KD (S)  : frilly trim on a polka dot blouse add a flirty touch to your look
+================================================================================
+
+
+
+2. BẢNG TỔNG HỢP KẾT QUẢ ĐÁNH GIÁ
+      Metric
+      Teacher (Large)
+      Seq-KD (Student)
+      Word-KD (Student)
+    
+      0
+      BLEU
+      0.0000
+      0.0375
+      0.0234
+ 
+      1
+      ROUGE-L
+      0.1356
+      0.1865
+      0.2396
+ 
+      2
+      CIDEr
+      0.0607
+      0.3998
+      0.4221
+    
+  
+
+
